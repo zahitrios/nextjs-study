@@ -1,9 +1,9 @@
-import { useEffect } from "react";
+import { useEffect } from 'react'
 
-function About(){
+function About (){
 
     useEffect (() => {
-        alert ("page loaded");
+        alert ('page loaded');
     }, []);
 
     return (
